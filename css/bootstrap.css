@@ -228,7 +228,10 @@ td,
 th {
     padding: 0
 }
-
+.mg-md.text-center.tc-white {
+    width: 300px;
+    margin-top: -15px;
+}
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 
 @media print {
@@ -306,7 +309,13 @@ th {
         border: 1px solid #ddd !important
     }
 }
-
+.btn.btn-atomic-tangerine.btn-clean.btn-rd.btn-lg.cta-hero {
+    text-align: center;
+    margin: auto;
+}
+.container.bloc-lg {
+    padding-bottom: 0px
+}
 @font-face {
     font-family: 'Glyphicons Halflings';
     src: url(../fonts/glyphicons-halflings-regular.eot);
@@ -2305,9 +2314,6 @@ pre code {
     .col-sm-8,
     .col-sm-9 {
         float: left
-    }
-    .col-sm-12 {
-        width: 100%
     }
     .col-sm-11 {
         width: 91.66666667%
@@ -8088,12 +8094,18 @@ button.close {
             width: 150px;
             height: 74px;
         }
+        .mg-md.text-center.tc-white {
+            margin-top: -3px;
+        }
 } 
 @media screen and (max-width: 414px) {
     .col-sm-12.text-center {
         display: flex;
         justify-content: center;
         object-fit: contain;
+    }
+    .mg-md.text-center.tc-white {
+        margin-top: -15px;
     }
 } 
 @media screen and (max-width: 320px) {
@@ -8110,5 +8122,8 @@ button.close {
     .col-xs-12.col-md-8.col-md-offset-2.text-center {
         width: 200px;
         height: 92px;
+    }
+    .mg-md.text-center.tc-white {
+        margin-top: -25px;
     }
 } 
