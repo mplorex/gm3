@@ -286,6 +286,10 @@ th {
     .navbar {
         display: none
     }
+    .navbar.row {
+        display: flex;
+        flex-flow: row;
+    }
     .btn>.caret,
     .dropup>.btn>.caret {
         border-top-color: #000 !important
@@ -8096,6 +8100,9 @@ button.close {
     }
 } 
 @media screen and (max-width: 320px) {
+    .navbar-header {
+        display: flex;
+    }
     .col-sm-12.text-center {
         display: flex;
         justify-content: center;
