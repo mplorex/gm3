@@ -2085,9 +2085,8 @@ pre code {
 }
 
 .col-xs-12 {
-    width: 100%
+    width: 100%;
 }
-
 .col-xs-11 {
     width: 91.66666667%
 }
@@ -7510,7 +7509,10 @@ button.close {
 .carousel-inner>.item>img {
     line-height: 1
 }
-
+.col-xs-12.col-md-8.col-md-offset-2.text-center {
+    display: flex;
+    justify-content: center;
+}
 @media all and (transform-3d),
 (-webkit-transform-3d) {
     .carousel-inner>.item {
@@ -8082,7 +8084,10 @@ button.close {
             object-fit: contain;
             width: 150px;
             height: 80px;
-    }
+        }
+        .col-xs-12.col-md-8.col-md-offset-2.text-center {
+            
+        }
 } 
 @media screen and (max-width: 414px) {
     .col-sm-12 {
@@ -8100,5 +8105,9 @@ button.close {
         object-fit: contain;
         width: 70px;
         height: 36px;
+    }
+    .col-xs-12.col-md-8.col-md-offset-2.text-center {
+        width: 200px;
+        height: 92px;
     }
 } 
