@@ -8085,7 +8085,7 @@ button.close {
             justify-content: center;
             object-fit: contain;
             width: 150px;
-            height: 80px;
+            height: 74px;
         }
 } 
 @media screen and (max-width: 414px) {
