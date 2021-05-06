@@ -8100,6 +8100,8 @@ button.close {
         display: flex;
         justify-content: center;
         object-fit: contain;
+        width: 200px;
+        height: 31px;
     }
     .col-xs-12.col-md-8.col-md-offset-2.text-center {
         width: 200px;
