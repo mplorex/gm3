@@ -8093,8 +8093,6 @@ button.close {
         display: flex;
         justify-content: center;
         object-fit: contain;
-        width: 110px;
-        height: 45px;
     }
 } 
 @media screen and (max-width: 320px) {
@@ -8102,8 +8100,6 @@ button.close {
         display: flex;
         justify-content: center;
         object-fit: contain;
-        width: 70px;
-        height: 36px;
     }
     .col-xs-12.col-md-8.col-md-offset-2.text-center {
         width: 200px;
