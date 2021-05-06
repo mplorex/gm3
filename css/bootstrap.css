@@ -228,10 +228,7 @@ td,
 th {
     padding: 0
 }
-.mg-md.text-center.tc-white {
-    width: 300px;
-   font-size: 10px;
-}
+
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 
 @media print {
