@@ -228,7 +228,10 @@ td,
 th {
     padding: 0
 }
-
+.mg-md.text-center.tc-white {
+    width: 300px;
+   font-size: 10px;
+}
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 
 @media print {
@@ -5009,7 +5012,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
     top: auto;
     left: auto
 }
-
 @media (min-width:768px) {
     .nav-justified>li {
         display: table-cell;
@@ -8078,19 +8080,16 @@ button.close {
     }
 }
 @media screen and (max-width: 769px) {
-        .col-sm-12 {
+        .col-sm-12.text-center {
             display: flex;
             justify-content: center;
             object-fit: contain;
             width: 150px;
             height: 80px;
         }
-        .col-xs-12.col-md-8.col-md-offset-2.text-center {
-            
-        }
 } 
 @media screen and (max-width: 414px) {
-    .col-sm-12 {
+    .col-sm-12.text-center {
         display: flex;
         justify-content: center;
         object-fit: contain;
@@ -8099,7 +8098,7 @@ button.close {
     }
 } 
 @media screen and (max-width: 320px) {
-    .col-sm-12 {
+    .col-sm-12.text-center {
         display: flex;
         justify-content: center;
         object-fit: contain;
