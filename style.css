@@ -272,16 +272,6 @@ a:hover {
     margin-top: 80px;
 }
 
-.row-no-gutters {
-    margin-right: 0;
-    margin-left: 0;
-}
-
-.row.row-no-gutters > [class^="col-"],
-.row.row-no-gutters > [class*=" col-"] {
-    padding-right: 0;
-    padding-left: 0;
-}
 
 #bloc-2-services p {
     font-size: 11px;
@@ -699,11 +689,6 @@ p {
     font-weight: 700;
 }
 
-.social {
-    max-width: 400px;
-    margin: auto auto auto auto;
-}
-
 h2 {
     font-size: 22px;
     line-height: 1.4em;
@@ -830,7 +815,6 @@ h4 {
 .bg-atlanta-20made-20sign-20orange {
     background-image: url("img/atlanta%20made%20sign%20orange.jpg");
 }
-
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;

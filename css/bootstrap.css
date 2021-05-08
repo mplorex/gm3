@@ -236,6 +236,10 @@ th {
 .col-xs-12.col-md-8.col-md-offset-2.text-center {
     margin: auto;
 }
+.row.row-no-gutters.social {
+    
+}
+
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 
 @media print {
@@ -316,9 +320,6 @@ th {
 .btn.btn-atomic-tangerine.btn-clean.btn-rd.btn-lg.cta-hero {
     text-align: center;
     margin: auto;
-}
-.row.row-no-gutters.social {
-    margin: 10px 10px 0px 240px;
 }
 @font-face {
     font-family: 'Glyphicons Halflings';
@@ -8101,9 +8102,6 @@ button.close {
         .mg-md.text-center.tc-white {
             margin-top: -3px;
         }
-        .row.row-no-gutters.social {
-            margin: 10px 10px 0px 230px;
-        }
 } 
 @media screen and (max-width: 414px) {
     .col-sm-12.text-center {
@@ -8114,9 +8112,7 @@ button.close {
     .mg-md.text-center.tc-white {
         margin-top: -15px;
     }
-    .row.row-no-gutters.social {
-        margin: 0px 0px 0px 140px;
-    }
+    
 } 
 @media screen and (max-width: 320px) {
     .navbar-header {
@@ -8136,8 +8132,5 @@ button.close {
     .mg-md.text-center.tc-white {
         margin-top: -25px;
         width: 310px;
-    }
-    .row.row-no-gutters.social {
-        margin: 0px 0px 0px 90px;
     }
 } 
