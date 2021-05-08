@@ -233,6 +233,9 @@ th {
     margin: auto;
     margin-top: -15px;
 }
+.col-xs-12.col-md-8.col-md-offset-2.text-center {
+    margin: auto;
+}
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 
 @media print {
