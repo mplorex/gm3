@@ -229,7 +229,8 @@ th {
     padding: 0
 }
 .mg-md.text-center.tc-white {
-    width: 300px;
+    width: 400px;
+    margin: auto;
     margin-top: -15px;
 }
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
@@ -8125,5 +8126,6 @@ button.close {
     }
     .mg-md.text-center.tc-white {
         margin-top: -25px;
+        width: 310px;
     }
 } 
