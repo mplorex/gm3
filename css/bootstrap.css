@@ -314,9 +314,6 @@ th {
     text-align: center;
     margin: auto;
 }
-.container.bloc-lg {
-    padding-bottom: 0px
-}
 @font-face {
     font-family: 'Glyphicons Halflings';
     src: url(../fonts/glyphicons-halflings-regular.eot);
